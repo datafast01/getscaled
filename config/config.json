@@ -1,0 +1,41 @@
+{
+  "development": {
+    "username": "admin",
+    "password": "GetScaled$3306",
+    "database": "getScaled",
+    "host": "getscaled.c0zkt2cm6te4.us-east-1.rds.amazonaws.com",
+    "dialect": "mysql",
+    "pool": {
+      "max": 5,
+      "min": 0,
+      "acquire": 10000000,
+      "idle": 10000
+    }
+  },
+  "test": {
+    "username": "admin",
+    "password": "GetScaled$3306",
+    "database": "getScaled",
+    "host": "getscaled.c0zkt2cm6te4.us-east-1.rds.amazonaws.com",
+    "dialect": "mysql",
+    "pool": {
+      "max": 5,
+      "min": 0,
+      "acquire": 10000000,
+      "idle": 10000
+    }
+  },
+  "production": {
+    "username": "admin",
+    "password": "GetScaled$3306",
+    "database": "getScaled",
+    "host": "getscaled.c0zkt2cm6te4.us-east-1.rds.amazonaws.com",
+    "dialect": "mysql",
+    "pool": {
+      "max": 5,
+      "min": 0,
+      "acquire": 10000000,
+      "idle": 10000
+    }
+  }
+}
